@@ -22,7 +22,8 @@ it's a simple project with little overhead and run effiently .
 
 Here is a simple usage of the function.
 
-Just subsititute the nDatasize to adjust how much data you want to view
+Just subsititute the nDatasize to adjust how much data you want to view .
+Ensure you create a folder which will store the visualized/render data .
 
 ```bash
 
