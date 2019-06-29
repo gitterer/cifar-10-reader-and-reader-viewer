@@ -36,7 +36,7 @@ int red[w + 1][h + 1];
 
 int blue[w + 1][h + 1];
 int green[w + 1][h + 1];
-const int nTraining = 10000;
+const int nDatasize = 10000;
 int x = 1;
 int y = 1;
 int offset = 1;
@@ -220,15 +220,12 @@ void rw_file(string z) {
 }
 int main()
 {
-	//adjust nTraining reduce traing dataset
-	for (int i = 0; i < nTraining; i++)
+	//adjust nDatasize reduce traing dataset
+	for (int i = 0; i < nDatasize; i++)
 	{
-		reader(i, nTraining, "t");
+		reader(i, nDatasize, "t");
 		rw_file(to_string(i));
 	}
-
-	
-
 
     return 0;
 }
