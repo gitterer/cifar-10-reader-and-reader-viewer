@@ -28,7 +28,7 @@ Ensure you create a folder which will store the visualized/render data .
 ```bash
 
 
-	//adjust nTraining reduce training dataset
+	//adjust nDatasize reduce training dataset
 	for (int i = 0; i < nDatasize; i++)
 	{
 		reader(i, nDatasize, "t");
