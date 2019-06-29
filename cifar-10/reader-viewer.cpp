@@ -1,14 +1,10 @@
 //=======================================================================
-// Copyright (c) 2017 Gitter
+// Copyright (c) 2019 Gitterer
 // Distributed under the terms of the MIT License.
 // (See accompanying file LICENSE or copy at
 //  http://opensource.org/licenses/MIT)
 //=======================================================================
 
-/*!
- * \file
- * \brief Contains functions to read the CIFAR-10 dataset
- */
 
 #pragma warning (disable : 4996)
 #include "stdafx.h"
