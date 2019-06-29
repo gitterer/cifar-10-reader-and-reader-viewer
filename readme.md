@@ -1,4 +1,4 @@
-# cifar-10 reader and renderer
+# cifar-10 reader and renderer in c++
 
 First download the cifar-10 database and add them to the directory of the .exe
 
