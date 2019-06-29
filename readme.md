@@ -24,7 +24,7 @@ Here is a simple usage of the function.
 
 Just subsititute the nDatasize to adjust how much data you want to view
 
-.. code:: cpp
+```bash
 
 
 	//adjust nTraining reduce traing dataset
