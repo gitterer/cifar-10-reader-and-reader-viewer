@@ -35,7 +35,11 @@ Just subsititute the nDatasize to adjust how much data you want to view
 	}
 
 ```
+```bash
 
+External libraries or Open-cv not required .
+
+```
 
 ## License
 
