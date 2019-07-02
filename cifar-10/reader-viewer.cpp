@@ -28,14 +28,22 @@ ifstream labels;
 const int w =32, h = 32;
 const int row_size = 9999;
 int labelr[row_size];
-int red[w + 1][h + 1];
-
-int blue[w + 1][h + 1];
-int green[w + 1][h + 1];
+int *red[w + 1];
+int *green[w + 1];
+int *blue[w + 1];
 const int nDatasize = 10000;
 int x = 1;
 int y = 1;
 int offset = 1;
+
+void init_array() {
+
+	for (int i = 1; i <= w; ++i) {
+		red[i] = new int[h + 1];
+		green[i] = new int[h + 1];
+		blue[i] = new int[h + 1];
+	}
+}
 void getpixel(int pixel_val,  string s_val) {
 
 	char s_val_char = s_val[0];
@@ -217,6 +225,7 @@ void rw_file(string z) {
 int main()
 {
 	//adjust nDatasize reduce traing dataset
+	init_array();
 	for (int i = 0; i < nDatasize; i++)
 	{
 		reader(i, nDatasize, "t");
