@@ -37,7 +37,6 @@ int y = 1;
 int offset = 1;
 
 void init_array() {
-
 	for (int i = 1; i <= w; ++i) {
 		red[i] = new int[w + 1];
 		green[i] = new int[w + 1];
