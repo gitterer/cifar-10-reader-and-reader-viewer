@@ -39,9 +39,9 @@ int offset = 1;
 void init_array() {
 
 	for (int i = 1; i <= w; ++i) {
-		red[i] = new int[h + 1];
-		green[i] = new int[h + 1];
-		blue[i] = new int[h + 1];
+		red[i] = new int[w + 1];
+		green[i] = new int[w + 1];
+		blue[i] = new int[w + 1];
 	}
 }
 void getpixel(int pixel_val,  string s_val) {
